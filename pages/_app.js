@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   const router = useRouter()
   const [pagenum,setpagenum] = useState(0)
   const [ispagenumshow,setisnumbershow] = useState(false)
-  const [popup,setpopup] = useState(false)
+  const [popup,setpopup] = useState(true)
   const split = ()=>{
     if(router.pathname === '/'){
       setisnumbershow(true)
