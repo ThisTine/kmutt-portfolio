@@ -1,6 +1,6 @@
 import SmallPJ from "../components/SmallProject";
 export default function Home() {
-  const weburl = "https://s.thistine.com/kmuit";
+  const weburl = "https://s.thistine.com/kmutt";
   return (
     <div className="page" style={{background:"url(/img/p1.jpg)",backgroundSize:"cover",backgroundAttachment:"center"}}>
       <div className="centeralign">
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="uniname">
           <div className="uniname-bottom">
           <div className="uniname-top">
-            <p className="label uniname-label-name">KMUIT</p>
+            <p className="label uniname-label-name">KMUTT</p>
             <p className="label uniname-label-name">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
           </div>
             <p className="label uniname-label">คณะเทคโนโลยีสารสนเทศ</p>
