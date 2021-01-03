@@ -35,16 +35,16 @@ export default function p2() {
                   <p className="ab-basic-text"> <span className="label ab-label">ประถมศึกษา</span> โรงเรียนจุฑาทิพย์   <span className="label back-label">GPA : 4.00</span> </p>
                   <p className="ab-basic-text"> <span className="label ab-label">มัธยมศึกษา</span> โรงเรียนพนมสารคาม "พนมอดุลวิทยา"</p>
                   <p className="ab-basic-text" style={{marginLeft:"40px"}}> <span className="label ab-label">แผนการเรียน</span> วิทย์-คณิต (English program)</p>   
-                  <div className="gpax"><span className="label ab-label">GPAX ม.1-3 : 3.49</span> <span className="label ab-label">GPAX (5เทอม) ม.4-6 : 4.70</span></div>
+                  <div className="gpax"><span className="label ab-label">GPAX ม.1-3 : 3.49</span> <span className="label ab-label">GPAX (5เทอม) ม.4-6 : 3.70</span></div>
                 </div>
             </div>
             <div className="ab-basic">
               <div style={{width:"20%"}}></div>
             <h1 style={{width:"80%",textAlign:"left"}}> <Tag style={{fontSize:"1.25rem",letterSpacing:"3px"}} tagname="h2">Contact</Tag> </h1>
               <div style={{width:"100%"}}>
-                <p style={{marginLeft:"30px"}} className="ab-basic-text"> <span style={{whiteSpace:"nowrap",alignItems:"center",display:"flex"}} className="label ab-label">ที่อยู่ปัจจุบัน</span> xx หมู่ xx ต.xxxx อ.พนมสารคาม จ.ฉะเชิงเทรา 24120</p>
+                <p style={{marginLeft:"30px"}} className="ab-basic-text"> <span style={{whiteSpace:"nowrap",alignItems:"center",display:"flex"}} className="label ab-label">ที่อยู่ปัจจุบัน</span> xx หมู่ xx ต.xxx อ.พนมสารคาม จ.ฉะเชิงเทรา 24120</p>
                 <p className="ab-basic-text" style={{marginLeft:"30px"}}> <span className="label ab-label">Website</span> www.thistine.com</p>
-                <p className="ab-basic-text space" style={{marginLeft:"90px"}}> <span className="label ab-label">Phone number</span>xxxxx</p>
+                <p className="ab-basic-text space" style={{marginLeft:"90px"}}> <span className="label ab-label">Phone number</span>xxxx</p>
                 <p style={{marginLeft:"120px"}} className="ab-basic-text space"> <span className="label ab-label">Facebook</span>Sittichok Uamsiri</p>
                 </div>
             </div>
