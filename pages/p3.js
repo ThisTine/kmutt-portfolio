@@ -5,7 +5,7 @@ export default function p3() {
       <div className="page" style={{background:"url(/img/p3.jpg)",backgroundSize:"cover",backgroundAttachment:"center"}}>
         <div className="border shadow"></div>
         <div className="centeralign">
-          <div style={{position:"absolute",bottom:"0",background:"white",padding:" 0 10px",borderRadius:"5px"}}><p>*ความถนัดทั้งหมดวัดโดยความถี่ในการใช้และความเข้าใจในภาษานั้น ๆ ของผม</p></div>
+          <div style={{position:"absolute",bottom:"0",background:"white",padding:" 0 10px",borderRadius:"5px"}}><p>*All of these aptitudes measured by my frequency uses</p></div>
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
         <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Skill & Aptitude</Tag></h1>
         </div>
@@ -14,7 +14,7 @@ export default function p3() {
 
         <div className="ab-skill shadow" style={{height:"45%"}}>
         <div style={{width:"50%",boxSizing:'border-box',padding:"10px"}}>
-        <h1 className="sec-title">ความสามารถในการเขียนโปรแกรมโดยรวม</h1>
+        <h1 className="sec-title">Overall programming skills</h1>
         <Progress width="90%" bg="#e74c3c" ani={{data:"flip-up",delay:"100"}} title="back-end-website"/>
         <Progress width="85%" bg="#e74c3c" ani={{data:"flip-up",delay:"200"}} title="Front-end-website"/>
         </div>
@@ -26,7 +26,7 @@ export default function p3() {
 
         <div className="ab-skill shadow">
             <div style={{width:"50%",boxSizing:'border-box',padding:"10px"}}>
-          <h1 className="sec-title">ความถนัดทางด้านภาษาคอมพิวเตอร์</h1>
+          <h1 className="sec-title">Aptitude of programming languages</h1>
             <Progress width="96%" bg="#f1c40f" title="Javascript & Typescript"/>
             <Progress width="92%" bg="#e74c3c"  title="HTML & CSS"/>
             <Progress width="92%" bg="#2980b9"  title="Dart"/>
@@ -38,7 +38,7 @@ export default function p3() {
             <Progress width="50%" bg="#2980b9"  title="kotlin"/>
             </div>
             <div style={{width:"50%",boxSizing:'border-box',padding:"10px"}}>
-            <h1 className="sec-title">ความถนัดทางด้านLibrary/Frameworks</h1>
+            <h1 className="sec-title">Aptitude of Library/Frameworks</h1>
             <Progress width="92%" bg="#8bf6ff" title="React"/>
             <Progress width="90%" bg="#087f23" title="NodeJS"/>
             <Progress width="85%" bg="#03a9f4" title="Flutter"/>

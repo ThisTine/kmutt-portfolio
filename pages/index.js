@@ -1,6 +1,5 @@
-import SmallPJ from "../components/SmallProject";
 export default function Home() {
-  const weburl = "https://s.thistine.com/kmutt";
+  const weburl = "s.thistine.com/kmutt";
   return (
     <div className="page" style={{background:"url(/img/p1.jpg)",backgroundSize:"cover",backgroundAttachment:"center"}}>
       <div className="centeralign">
@@ -10,9 +9,10 @@ export default function Home() {
       </div>
       <div className="homeqr">
           <div className="qrcode">
-            <img className="qrcodeimg" src={`https://chart.googleapis.com/chart?chs=177x177&cht=qr&chl=${weburl}&chld=L|0`}/>
-            <p>Portfolio เล่มนี้ถูกจัดทำขึ้นโดยภาษา javascript ผ่าน Nextjs (แสกนเพื่อดู source code)</p>
-            <div className="pj-text-con"><a className="pj-web-text" href={weburl} target="blank" style={{fontSize:"0.6rem"}} >{weburl}</a> </div>
+            <img className="qrcodeimg" src={`https://chart.googleapis.com/chart?chs=177x177&cht=qr&chl=https://${weburl}&chld=L|0`}/>
+            
+            <p>This portfolio is written in Javascript by using nextjs (scan to see the source code)</p>
+            <div className="pj-text-con"><a className="pj-web-text" href={"https://"+weburl} target="blank" style={{fontSize:"0.6rem"}} >{weburl}</a> </div>
             
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
             <p className="label uniname-label-name">KMUTT</p>
             <p className="label uniname-label-name">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
           </div>
-            <p className="label uniname-label">คณะเทคโนโลยีสารสนเทศ</p>
+            <p className="label uniname-label">School of Information Technology</p>
           </div>
         </div>
 

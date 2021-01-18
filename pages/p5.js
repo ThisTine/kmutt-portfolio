@@ -8,7 +8,7 @@ export default function p5() {
         <div className="border shadow"></div>
         <div className="centeralign">
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
-        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">รางวัลที่ภาคภูมิใจ</Tag></h1>
+        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Honors/Certificates</Tag></h1>
         </div>
         </div>
         
@@ -31,11 +31,11 @@ export default function p5() {
             </div>
             <div className="three">
             <div className="text-con shadow">
-            <p>เข้าร่วมพูดคุยแลกเปลี่ยนความคิด ทางด้านการเมือง/สิ่งแวดล้อม
-            วัฒนธรรม และอื่นๆ กับ สมาชิกสภาผู้แทนราษฎร และ วุฒิสามาชิก
-            THOM TILLIS และ DAVID ROUZER จากรัฐ NORTH CAROLINA
-            และได้รับเกียรติบัตรจากการทำกิจกรรมสาธารณะประโยชน์ต่าง ๆ ให้
-            กับรัฐ</p>
+            <p>
+            Joined to take about political/technology and environment
+            with a Representative and senate THOM TILLIS and DAVID ROUZER
+            from North carolina ,USA and recived a community service certificates
+            </p>
             </div>
             
             </div>

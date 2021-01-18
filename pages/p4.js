@@ -6,16 +6,16 @@ export default function p5() {
         <div className="border shadow"></div>
         <div className="centeralign">
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
-        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">รางวัลที่ภาคภูมิใจ</Tag></h1>
+        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Honors/Certificates</Tag></h1>
         </div>
         </div>
         <div className="container" style={{height:"50%",width:"55%",marginTop:"15px"}}>
         <div className="twoinpage">
             <div className="one">
-            <Award imgp="/img/certi/webapp.jpg" caption="การแข่งขันศิลปหัตถกรรมระดับชาติ ครั้งที่ ๖๙ หมวด Web applications (รางวัลเหรียญทองระดับชาติ)"/>
+            <Award imgp="/img/certi/webapp.jpg" caption="69th National Sillapa-Hattagam Competition in Web Applications (7th National Golden medal)" />
             </div>
             <div className="two">
-            <Award imgp="/img/certi/ctf.jpg" caption="เข้าร่วมการแข่งขันทักษะด้านความมั่นคงไซเบอร์ " captionsec="(Royal Thai Air Force Junior CTF 2020)"/>
+            <Award imgp="/img/certi/ctf.jpg" caption="Joined Cyber security skilled compitation" captionsec="(Royal Thai Air Force Junior CTF 2020)"/>
             </div>
         </div>
 

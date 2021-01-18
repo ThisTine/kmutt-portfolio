@@ -16,14 +16,14 @@ export default function p2() {
             <div className="ab-basic">
               <h1 style={{width:"100%"}}> <Tag style={{fontSize:"1.25rem",letterSpacing:"3px"}} tagname="h2">Basic Info</Tag> </h1>
               <div style={{width:"70%"}}>
-                <p className="ab-basic-text"> <span className="label ab-label">Name</span> นาย สิทธิโชค อ่วมศิริ</p>
-                <p className="ab-basic-text"> <span className="label ab-label">birth day</span> 14 กุมภาพันธ์ 2546</p>
+                <p className="ab-basic-text"> <span className="label ab-label">Name</span> Mr. Sittichok ouamsiri</p>
+                <p className="ab-basic-text"> <span className="label ab-label">date of brith</span> 14 February 2003</p>
                 {/* <p className="ab-basic-text"> <span className="label ab-label">Dad</span>นาย xxxx xxx</p>
                 <p className="ab-basic-text"> <span className="label ab-label">Mom</span>นาง xxxx xxxx</p> */}
                 </div>
               <div style={{width:"30%"}}>
-                <p className="ab-basic-text"> <span className="label ab-label">Age</span> 17 ปี</p>
-                <p className="ab-basic-text"> <span className="label ab-label">Nationality</span> ไทย</p>
+                <p className="ab-basic-text"> <span className="label ab-label">Age</span> 17 years</p>
+                <p className="ab-basic-text"> <span className="label ab-label">Nationality</span> Thai</p>
                 {/* <p className="ab-basic-text"> <span className="label ab-label">GPAX</span> 3.70</p> */}
                 </div>
                 <div style={{width:"100%"}}>
@@ -32,19 +32,19 @@ export default function p2() {
                  
                   </div> */}
                   <p className="ab-basic-text"> <span className="label ab-label">Study Abord</span> Clayton High school, North Carolina</p>
-                  <p className="ab-basic-text"> <span className="label ab-label">ประถมศึกษา</span> โรงเรียนจุฑาทิพย์   <span className="label back-label">GPA : 4.00</span> </p>
-                  <p className="ab-basic-text"> <span className="label ab-label">มัธยมศึกษา</span> โรงเรียนพนมสารคาม "พนมอดุลวิทยา"</p>
-                  <p className="ab-basic-text" style={{marginLeft:"40px"}}> <span className="label ab-label">แผนการเรียน</span> วิทย์-คณิต (English program)</p>   
-                  <div className="gpax"><span className="label ab-label">GPAX ม.1-3 : 3.49</span> <span className="label ab-label">GPAX (5เทอม) ม.4-6 : 3.70</span></div>
+                  <p className="ab-basic-text"> <span className="label ab-label">Primary School</span> Chutatip School   <span className="label back-label">GPA : 4.00</span> </p>
+                  <p className="ab-basic-text"> <span className="label ab-label">Middle/High School</span> Phanom Adun Witthaya school</p>
+                  <p className="ab-basic-text" style={{marginLeft:"40px"}}> <span className="label ab-label">Study Program</span> วิทย์-คณิต (English program)</p>   
+                  <div className="gpax"><span className="label ab-label">GPAX M.1-3 : 3.49</span> <span className="label ab-label">GPAX (5 semesters) M.4-6 : 3.70</span></div>
                 </div>
             </div>
             <div className="ab-basic">
               <div style={{width:"20%"}}></div>
             <h1 style={{width:"80%",textAlign:"left"}}> <Tag style={{fontSize:"1.25rem",letterSpacing:"3px"}} tagname="h2">Contact</Tag> </h1>
               <div style={{width:"100%"}}>
-                <p style={{marginLeft:"30px"}} className="ab-basic-text"> <span style={{whiteSpace:"nowrap",alignItems:"center",display:"flex"}} className="label ab-label">ที่อยู่ปัจจุบัน</span> xx หมู่ xx ต.xxx อ.พนมสารคาม จ.ฉะเชิงเทรา 24120</p>
+                <p style={{marginLeft:"30px"}} className="ab-basic-text"> <span style={{whiteSpace:"nowrap",alignItems:"center",display:"flex"}} className="label ab-label">Address</span> 69m.12 Nongyao,Phanomsarakham,Chachoengsao 24120</p>
                 <p className="ab-basic-text" style={{marginLeft:"30px"}}> <span className="label ab-label">Website</span> www.thistine.com</p>
-                <p className="ab-basic-text space" style={{marginLeft:"90px"}}> <span className="label ab-label">Phone number</span>xxxx</p>
+                <p className="ab-basic-text space" style={{marginLeft:"90px"}}> <span className="label ab-label">Phone number</span>0909361134</p>
                 <p style={{marginLeft:"120px"}} className="ab-basic-text space"> <span className="label ab-label">Facebook</span>Sittichok Uamsiri</p>
                 </div>
             </div>
@@ -54,9 +54,9 @@ export default function p2() {
               </div>
               <div className="spas" style={{width:"100%",marginLeft:"150px"}}>
                 <ol style={{margin:"10px 0 0 0 "}}>
-                  <li><p>ทดลองเขียนโปรแกรม</p></li>
-                  <li><p>ถ่ายรูป</p></li>
-                  <li><p>ดูหนัง/อนิเมะ</p></li>
+                  <li><p>Coding</p></li>
+                  <li><p>Photographing</p></li>
+                  <li><p>Watching movie/anime</p></li>
                 </ol>
               </div>
               

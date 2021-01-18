@@ -10,21 +10,21 @@ export default function p8() {
         <div className="border shadow"></div>
         <div className="centeralign">
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
-        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">กิจกรรม/โปรเจ็ค</Tag></h1>
+        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Activites/Projects</Tag></h1>
         </div>
         </div>
         <div className="container" style={{height:"80%",width:"70%",marginTop:"15px"}}>
-        <Project description="เว็บไซต์ทำเนียบศิษย์เก่าโรงเรียนพนมอดุลวิทยาสำหรับเพิ่ม/ดู
-            รายชื่อศิษย์เก่าที่จบจากโรงเรียน มีระบบเช็ครายชื่อซ้ำและอื่น ๆ" picConHeight="45%" framework={['react','nodejs','graphql','mongodb']} url="thistine.com/paalumnus/">
+        <Project description="Alumni Website of Phanom Adun Witthaya school to add/see
+            Alumni students from the past." picConHeight="45%" framework={['react','nodejs','graphql','mongodb']} url="thistine.com/paalumnus/">
             
             { img1.file.map(item=>{return(
                 <img key={Math.random()} src={`/img/${img1.folder}/${item[0]}.jpg`} className={item[1] ? `pj-img ${item[1]}` : "pj-img"} alt="test" />
             )})}
             
         </Project>
-        <Project description="RANDOMI แอพพลิชั่นสุ่มตัวเลขที่มีฟังก์ชั่นหลากหลายและ
-ปรับแต่งโดยคำนึงถึงการใช้งานในชีวิตประจำวันให้ได้มากที่สุด
-มีทั้งรูปแบบแอพพลิเคชั่น (Playstore) และ PWA (PROGRESSIVE WEB APPLICATION )" picConHeight="60%" mode="min" framework={['flutter','react']} url="app.thistine.com/randomi/">
+        <Project description="RANDOMI Application a (RNG) random number generator Application
+        with a richful features including Repeat number,effect and beautiful easy to use UI,
+        coming in Native Appication on Playstore and PWA  (PROGRESSIVE WEB APPLICATION )." picConHeight="60%" mode="min" framework={['flutter','react']} url="app.thistine.com/randomi/">
             {img2.file.map(item=>{return(
                 <img key={Math.random()} src={`/img/${img2.folder}/${item[0]}.jpg`} className={item[1] ? `pj-img ${item[1]}`: "pj-img"} />
             )})}

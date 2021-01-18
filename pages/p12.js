@@ -6,11 +6,12 @@ export default function p10() {
   const img1 = {folder:"billdora", file:[["main"],["p2"],["p4.1"],["p5"],["p4"],["p3","gone"]]}
     return (
       <div className="page" style={{background:"url(/img/p12.jpg)",backgroundSize:"cover",backgroundAttachment:"center"}}>
-        <div style={{position:"absolute",bottom:"0",background:"white",padding:" 0 10px",borderRadius:"5px"}}><p>*ปกหลัง</p></div>
+        <div style={{position:"absolute",bottom:"0",background:"white",padding:" 0 10px",borderRadius:"5px"}}><p>*Back cover</p></div>
         <div className="border shadow"></div>
         <div className="centeralign">
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
-        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">คำนิยม</Tag></h1>
+        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Favorable comment
+</Tag></h1>
         </div>
         </div>
         <div className="container" style={{height:"80%",width:"70%",marginTop:"15px"}}>
@@ -20,8 +21,10 @@ export default function p10() {
             </SRLWrapper>
        
           </div>
-          <h1 className="newproject">โปรเจ็กต์ล่าสุด</h1>
-          <Project mode="small" description="แอพพลิเคชั่นหารค่าใช้จ่ายที่มีฟังก์ชั่นพื้นฐานหลากหลายเช่นการคำนวณค่าใช้จ่ายอัตโนมัติ การติดตามผู้ใช้จ่ายเงิน รวมถึงการสร้างหน้าใบเสร็จรับเงินพร้อม QR Code สำหรับ Promptpay ใช้ในการจ่ายเงินได้ทันที และรวดเร็วปล่อยให้ดาวน์โหลดแบบฟรีที่ Playstore " picConHeight="60%" framework={['flutter']} url="app.thistine.com/billdora/">
+          <h1 className="newproject">New project</h1>
+          <Project mode="small" description="
+          Billdora - An application to shared bills with a function to calculate bill, Check paid people and create bill page with you Promptpay's QR code for faster and easier paying.
+          Free to download in playstore" picConHeight="60%" framework={['flutter']} url="app.thistine.com/billdora/">
             
             { img1.file.map(item=>{return(
                 <img key={Math.random()} src={`/img/${img1.folder}/${item[0]}.jpg`} className={item[1] ? `pj-img ${item[1]}` : "pj-img"} alt="test" />

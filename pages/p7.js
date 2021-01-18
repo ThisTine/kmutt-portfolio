@@ -6,38 +6,38 @@ export default function p6() {
         <div className="border shadow"></div>
         <div className="centeralign">
           <div  className="title-con shadow" style={{marginTop:"20px"}}>
-        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">รางวัลที่ภาคภูมิใจ</Tag></h1>
+        <h1 className="title-text"> <Tag style={{fontSize:"3rem",letterSpacing:"3px"}} tagname="h1">Honors/Certificates</Tag></h1>
         </div>
         </div>
         <div className="container" style={{height:"50%",width:"80%",marginTop:"15px"}}>
 
         <div className="sixbytwo">
         <div className="haf">
-        <Award imgp="/img/certi/solo_c.jpg" caption="เข้ารับการฝึกสอนภาษา C " captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_c.jpg" caption="Completed the C course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_html.jpg" caption="เข้ารับการฝึกสอน HTML " captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_html.jpg" caption="Completed the HTML course " captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_java.jpg" caption="เข้ารับการฝึกสอนภาษา java" captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_java.jpg" caption="Completed the java course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_jquery.jpg" caption="เข้ารับการฝึกสอนการใช้งาน jquery " captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_jquery.jpg" caption="Completed the jquery course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_php.jpg" caption="เข้ารับการฝึกสอนภาษา PHP" captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_php.jpg" caption="Completed the PHP course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_python.jpg" caption="เข้ารับการฝึกสอนภาษา Python3 " captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_python.jpg" caption="Completed the jquery Python3 course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/solo_javascript.jpg" caption="เข้ารับการฝึกสอนภาษา Javascript " captionsec="จาก Sololearn" />
+        <Award imgp="/img/certi/solo_javascript.jpg" caption="Completed the jquery Javascript course" captionsec="from Sololearn" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/eng.jpg" caption="เหรียญเงิน การแข่งขันทักษะภาษาอังกฤษหมวด ฟัง พูด อ่าน เขียน (Multi-Skills)" />
+        <Award imgp="/img/certi/eng.jpg" caption="Silver medal in  English program lower seconday level (Zone C)'s Multi-Skills" />
         </div>
         <div className="haf">
-        <Award imgp="/img/certi/engtran.jpg" caption="สำเร็จการศึกษาระดับ 10 (เทียบเท่า ม.4) ด้วยผลการเรียน 98/100 ในวิชา Multimedia and Webpage Design " />
+        <Award imgp="/img/certi/engtran.jpg" caption="Scored 98/100 in Multimedia and Webpage Design from Clayton Highschool USA" />
         </div>
             
         </div>
